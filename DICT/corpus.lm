@@ -1,0 +1,281 @@
+Language model created by QuickLM on Sat Jan  1 14:59:19 EST 2022
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 64 sentences and 66 words
+
+\data\
+ngram 1=66
+ngram 2=128
+ngram 3=64
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-2.5843 A-EIGHT -0.2218
+-2.5843 A-FIVE -0.2218
+-2.5843 A-FOUR -0.2218
+-2.5843 A-ONE -0.2218
+-2.5843 A-SEVEN -0.2218
+-2.5843 A-SIX -0.2218
+-2.5843 A-THREE -0.2218
+-2.5843 A-TWO -0.2218
+-2.5843 B-EIGHT -0.2218
+-2.5843 B-FIVE -0.2218
+-2.5843 B-FOUR -0.2218
+-2.5843 B-ONE -0.2218
+-2.5843 B-SEVEN -0.2218
+-2.5843 B-SIX -0.2218
+-2.5843 B-THREE -0.2218
+-2.5843 B-TWO -0.2218
+-2.5843 C-EIGHT -0.2218
+-2.5843 C-FIVE -0.2218
+-2.5843 C-FOUR -0.2218
+-2.5843 C-ONE -0.2218
+-2.5843 C-SEVEN -0.2218
+-2.5843 C-SIX -0.2218
+-2.5843 C-THREE -0.2218
+-2.5843 C-TWO -0.2218
+-2.5843 D-EIGHT -0.2218
+-2.5843 D-FIVE -0.2218
+-2.5843 D-FOUR -0.2218
+-2.5843 D-ONE -0.2218
+-2.5843 D-SEVEN -0.2218
+-2.5843 D-SIX -0.2218
+-2.5843 D-THREE -0.2218
+-2.5843 D-TWO -0.2218
+-2.5843 E-EIGHT -0.2218
+-2.5843 E-FIVE -0.2218
+-2.5843 E-FOUR -0.2218
+-2.5843 E-ONE -0.2218
+-2.5843 E-SEVEN -0.2218
+-2.5843 E-SIX -0.2218
+-2.5843 E-THREE -0.2218
+-2.5843 E-TWO -0.2218
+-2.5843 F-EIGHT -0.2218
+-2.5843 F-FIVE -0.2218
+-2.5843 F-FOUR -0.2218
+-2.5843 F-ONE -0.2218
+-2.5843 F-SEVEN -0.2218
+-2.5843 F-SIX -0.2218
+-2.5843 F-THREE -0.2218
+-2.5843 F-TWO -0.2218
+-2.5843 G-EIGHT -0.2218
+-2.5843 G-FIVE -0.2218
+-2.5843 G-FOUR -0.2218
+-2.5843 G-ONE -0.2218
+-2.5843 G-SEVEN -0.2218
+-2.5843 G-SIX -0.2218
+-2.5843 G-THREE -0.2218
+-2.5843 G-TWO -0.2218
+-2.5843 H-EIGHT -0.2218
+-2.5843 H-FIVE -0.2218
+-2.5843 H-FOUR -0.2218
+-2.5843 H-ONE -0.2218
+-2.5843 H-SEVEN -0.2218
+-2.5843 H-SIX -0.2218
+-2.5843 H-THREE -0.2218
+-2.5843 H-TWO -0.2218
+
+\2-grams:
+-2.1072 <s> A-EIGHT 0.0000
+-2.1072 <s> A-FIVE 0.0000
+-2.1072 <s> A-FOUR 0.0000
+-2.1072 <s> A-ONE 0.0000
+-2.1072 <s> A-SEVEN 0.0000
+-2.1072 <s> A-SIX 0.0000
+-2.1072 <s> A-THREE 0.0000
+-2.1072 <s> A-TWO 0.0000
+-2.1072 <s> B-EIGHT 0.0000
+-2.1072 <s> B-FIVE 0.0000
+-2.1072 <s> B-FOUR 0.0000
+-2.1072 <s> B-ONE 0.0000
+-2.1072 <s> B-SEVEN 0.0000
+-2.1072 <s> B-SIX 0.0000
+-2.1072 <s> B-THREE 0.0000
+-2.1072 <s> B-TWO 0.0000
+-2.1072 <s> C-EIGHT 0.0000
+-2.1072 <s> C-FIVE 0.0000
+-2.1072 <s> C-FOUR 0.0000
+-2.1072 <s> C-ONE 0.0000
+-2.1072 <s> C-SEVEN 0.0000
+-2.1072 <s> C-SIX 0.0000
+-2.1072 <s> C-THREE 0.0000
+-2.1072 <s> C-TWO 0.0000
+-2.1072 <s> D-EIGHT 0.0000
+-2.1072 <s> D-FIVE 0.0000
+-2.1072 <s> D-FOUR 0.0000
+-2.1072 <s> D-ONE 0.0000
+-2.1072 <s> D-SEVEN 0.0000
+-2.1072 <s> D-SIX 0.0000
+-2.1072 <s> D-THREE 0.0000
+-2.1072 <s> D-TWO 0.0000
+-2.1072 <s> E-EIGHT 0.0000
+-2.1072 <s> E-FIVE 0.0000
+-2.1072 <s> E-FOUR 0.0000
+-2.1072 <s> E-ONE 0.0000
+-2.1072 <s> E-SEVEN 0.0000
+-2.1072 <s> E-SIX 0.0000
+-2.1072 <s> E-THREE 0.0000
+-2.1072 <s> E-TWO 0.0000
+-2.1072 <s> F-EIGHT 0.0000
+-2.1072 <s> F-FIVE 0.0000
+-2.1072 <s> F-FOUR 0.0000
+-2.1072 <s> F-ONE 0.0000
+-2.1072 <s> F-SEVEN 0.0000
+-2.1072 <s> F-SIX 0.0000
+-2.1072 <s> F-THREE 0.0000
+-2.1072 <s> F-TWO 0.0000
+-2.1072 <s> G-EIGHT 0.0000
+-2.1072 <s> G-FIVE 0.0000
+-2.1072 <s> G-FOUR 0.0000
+-2.1072 <s> G-ONE 0.0000
+-2.1072 <s> G-SEVEN 0.0000
+-2.1072 <s> G-SIX 0.0000
+-2.1072 <s> G-THREE 0.0000
+-2.1072 <s> G-TWO 0.0000
+-2.1072 <s> H-EIGHT 0.0000
+-2.1072 <s> H-FIVE 0.0000
+-2.1072 <s> H-FOUR 0.0000
+-2.1072 <s> H-ONE 0.0000
+-2.1072 <s> H-SEVEN 0.0000
+-2.1072 <s> H-SIX 0.0000
+-2.1072 <s> H-THREE 0.0000
+-2.1072 <s> H-TWO 0.0000
+-0.3010 A-EIGHT </s> -0.3010
+-0.3010 A-FIVE </s> -0.3010
+-0.3010 A-FOUR </s> -0.3010
+-0.3010 A-ONE </s> -0.3010
+-0.3010 A-SEVEN </s> -0.3010
+-0.3010 A-SIX </s> -0.3010
+-0.3010 A-THREE </s> -0.3010
+-0.3010 A-TWO </s> -0.3010
+-0.3010 B-EIGHT </s> -0.3010
+-0.3010 B-FIVE </s> -0.3010
+-0.3010 B-FOUR </s> -0.3010
+-0.3010 B-ONE </s> -0.3010
+-0.3010 B-SEVEN </s> -0.3010
+-0.3010 B-SIX </s> -0.3010
+-0.3010 B-THREE </s> -0.3010
+-0.3010 B-TWO </s> -0.3010
+-0.3010 C-EIGHT </s> -0.3010
+-0.3010 C-FIVE </s> -0.3010
+-0.3010 C-FOUR </s> -0.3010
+-0.3010 C-ONE </s> -0.3010
+-0.3010 C-SEVEN </s> -0.3010
+-0.3010 C-SIX </s> -0.3010
+-0.3010 C-THREE </s> -0.3010
+-0.3010 C-TWO </s> -0.3010
+-0.3010 D-EIGHT </s> -0.3010
+-0.3010 D-FIVE </s> -0.3010
+-0.3010 D-FOUR </s> -0.3010
+-0.3010 D-ONE </s> -0.3010
+-0.3010 D-SEVEN </s> -0.3010
+-0.3010 D-SIX </s> -0.3010
+-0.3010 D-THREE </s> -0.3010
+-0.3010 D-TWO </s> -0.3010
+-0.3010 E-EIGHT </s> -0.3010
+-0.3010 E-FIVE </s> -0.3010
+-0.3010 E-FOUR </s> -0.3010
+-0.3010 E-ONE </s> -0.3010
+-0.3010 E-SEVEN </s> -0.3010
+-0.3010 E-SIX </s> -0.3010
+-0.3010 E-THREE </s> -0.3010
+-0.3010 E-TWO </s> -0.3010
+-0.3010 F-EIGHT </s> -0.3010
+-0.3010 F-FIVE </s> -0.3010
+-0.3010 F-FOUR </s> -0.3010
+-0.3010 F-ONE </s> -0.3010
+-0.3010 F-SEVEN </s> -0.3010
+-0.3010 F-SIX </s> -0.3010
+-0.3010 F-THREE </s> -0.3010
+-0.3010 F-TWO </s> -0.3010
+-0.3010 G-EIGHT </s> -0.3010
+-0.3010 G-FIVE </s> -0.3010
+-0.3010 G-FOUR </s> -0.3010
+-0.3010 G-ONE </s> -0.3010
+-0.3010 G-SEVEN </s> -0.3010
+-0.3010 G-SIX </s> -0.3010
+-0.3010 G-THREE </s> -0.3010
+-0.3010 G-TWO </s> -0.3010
+-0.3010 H-EIGHT </s> -0.3010
+-0.3010 H-FIVE </s> -0.3010
+-0.3010 H-FOUR </s> -0.3010
+-0.3010 H-ONE </s> -0.3010
+-0.3010 H-SEVEN </s> -0.3010
+-0.3010 H-SIX </s> -0.3010
+-0.3010 H-THREE </s> -0.3010
+-0.3010 H-TWO </s> -0.3010
+
+\3-grams:
+-0.3010 <s> A-EIGHT </s>
+-0.3010 <s> A-FIVE </s>
+-0.3010 <s> A-FOUR </s>
+-0.3010 <s> A-ONE </s>
+-0.3010 <s> A-SEVEN </s>
+-0.3010 <s> A-SIX </s>
+-0.3010 <s> A-THREE </s>
+-0.3010 <s> A-TWO </s>
+-0.3010 <s> B-EIGHT </s>
+-0.3010 <s> B-FIVE </s>
+-0.3010 <s> B-FOUR </s>
+-0.3010 <s> B-ONE </s>
+-0.3010 <s> B-SEVEN </s>
+-0.3010 <s> B-SIX </s>
+-0.3010 <s> B-THREE </s>
+-0.3010 <s> B-TWO </s>
+-0.3010 <s> C-EIGHT </s>
+-0.3010 <s> C-FIVE </s>
+-0.3010 <s> C-FOUR </s>
+-0.3010 <s> C-ONE </s>
+-0.3010 <s> C-SEVEN </s>
+-0.3010 <s> C-SIX </s>
+-0.3010 <s> C-THREE </s>
+-0.3010 <s> C-TWO </s>
+-0.3010 <s> D-EIGHT </s>
+-0.3010 <s> D-FIVE </s>
+-0.3010 <s> D-FOUR </s>
+-0.3010 <s> D-ONE </s>
+-0.3010 <s> D-SEVEN </s>
+-0.3010 <s> D-SIX </s>
+-0.3010 <s> D-THREE </s>
+-0.3010 <s> D-TWO </s>
+-0.3010 <s> E-EIGHT </s>
+-0.3010 <s> E-FIVE </s>
+-0.3010 <s> E-FOUR </s>
+-0.3010 <s> E-ONE </s>
+-0.3010 <s> E-SEVEN </s>
+-0.3010 <s> E-SIX </s>
+-0.3010 <s> E-THREE </s>
+-0.3010 <s> E-TWO </s>
+-0.3010 <s> F-EIGHT </s>
+-0.3010 <s> F-FIVE </s>
+-0.3010 <s> F-FOUR </s>
+-0.3010 <s> F-ONE </s>
+-0.3010 <s> F-SEVEN </s>
+-0.3010 <s> F-SIX </s>
+-0.3010 <s> F-THREE </s>
+-0.3010 <s> F-TWO </s>
+-0.3010 <s> G-EIGHT </s>
+-0.3010 <s> G-FIVE </s>
+-0.3010 <s> G-FOUR </s>
+-0.3010 <s> G-ONE </s>
+-0.3010 <s> G-SEVEN </s>
+-0.3010 <s> G-SIX </s>
+-0.3010 <s> G-THREE </s>
+-0.3010 <s> G-TWO </s>
+-0.3010 <s> H-EIGHT </s>
+-0.3010 <s> H-FIVE </s>
+-0.3010 <s> H-FOUR </s>
+-0.3010 <s> H-ONE </s>
+-0.3010 <s> H-SEVEN </s>
+-0.3010 <s> H-SIX </s>
+-0.3010 <s> H-THREE </s>
+-0.3010 <s> H-TWO </s>
+
+\end\
